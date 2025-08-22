@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>명지대 바이브 코딩 부트캠프</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-900">
+                <a href="index.html">
+                    <img src="https://www.mju.ac.kr/univ/images/intro/logo.png" alt="명지대학교 로고" class="h-10">
+                </a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-gray-600 hover:text-gray-900">메인</a></li>
+                    <li><a href="reviews.html" class="text-gray-600 hover:text-gray-900">후기</a></li>
+                    <li><a href="projects.html" class="text-gray-600 hover:text-gray-900">이전 기수 결과물</a></li>
+                    <li><a href="register.html" class="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">수강 신청</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <section id="introduction" class="text-center py-20">
+            <h1 class="text-5xl font-bold mb-4">명지대 바이브 코딩 부트캠프</h1>
+            <p class="text-xl text-gray-600">AI와 함께하는 개발의 새로운 패러다임을 경험하세요.</p>
+        </section>
+
+        <section id="curriculum" class="py-16">
+            <h2 class="text-3xl font-bold text-center mb-12">커리큘럼</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-6 border rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">1일차</h3>
+                    <p class="text-gray-700">바이브 코딩의 이해와 환경세팅, 기반지식 학습, 다양한 분야에 활용, 배포, 바이브 코딩의 프롬프트 입력 방법, CursorAI, ChatGPT를 활용하여 주제에 맞는 파이썬 코드 작성 실습</p>
+                </div>
+                <div class="p-6 border rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">2일차</h3>
+                    <p class="text-gray-700">바이브 코딩을 위한 디자인, UI/UX 디자인, Firebase 구조 소개 및 설정, Firebase와 FastAPI 연동 실습</p>
+                </div>
+                <div class="p-6 border rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">3일차</h3>
+                    <p class="text-gray-700">백엔드 연결 등 고급 기능 설계, 고급 기능을 위해 알아야 할 지식, 프롬프트 기반 발성법, 문제 정의 및 페르소나 설정, React 기본 구조 및 Vite 환경 설정</p>
+                </div>
+                <div class="p-6 border rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">4일차</h3>
+                    <p class="text-gray-700">Firebase 연동 로그인 UI 구성, FastAPI 기본 구조, Firebase 인증 API 및 CRUD 실습</p>
+                </div>
+                <div class="p-6 border rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">5일차</h3>
+                    <p class="text-gray-700">MCP 개요 및 Agent 설계, 랭크파와 MCP 연동 실습, GitHub 기반 협업</p>
+                </div>
+                <div class="p-6 border rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">6일차</h3>
+                    <p class="text-gray-700">TDD, 코드 리뷰, 커밋 메시지, 문서화 실습, Firebase Hosting, GCP 기본, 배포 실습 및 디버깅, 문제 해결 제안서 작성 워크숍</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="project-mentoring" class="py-16 bg-gray-50 rounded-lg">
+            <h2 class="text-3xl font-bold text-center mb-12">프로젝트 멘토링</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">1일차: 기획안 멘토링 (온라인)</h3>
+                    <p class="text-gray-700">팀별 기획안 검토, 기능 구현 계획 수립</p>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">2일차: 세부구현 멘토링</h3>
+                    <p class="text-gray-700">기능별 세부(백엔드/프론트), MCP/Agent 연동 점검</p>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">3일차: 집중 프로젝트</h3>
+                    <p class="text-gray-700">팀별 집중 프로젝트 및 팀별 순환 멘토링 진행</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="instructor" class="py-16">
+            <h2 class="text-3xl font-bold text-center mb-12">강사 소개</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+                <img src="https://picsum.photos/seed/instructor/400/400" alt="양진욱 강사" class="w-48 h-48 rounded-full object-cover shadow-lg">
+                <div>
+                    <h3 class="text-2xl font-bold">양진욱 강사</h3>
+                    <p class="text-gray-600">주식회사 한시경 대표</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>(주)한시경 | 대표: 양진욱 | 사업자번호: 189-81-02353 | 정보통신업</p>
+                    <p>주소: 서울특별시 서초구 서초대로74길 51, 1304호(서초동, 강남역 롯데골드로즈)</p>
+                    <p>전화: 02-2043-2748 | 이메일: onepm@onepm.kr</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://www.onepm.kr/" target="_blank" class="text-gray-400 hover:text-white">홈페이지</a>
+                    <a href="https://www.youtube.com/@hansikyung" target="_blank" class="text-gray-400 hover:text-white">유튜브</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
